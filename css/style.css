@@ -12,6 +12,11 @@ p {
   max-width: 50%;
   border-radius: 5px;
   margin: 30px auto;
+  transition: all 0.5s;
+}
+
+.croissant-photo:hover {
+  transform: scale(1.4) rotate(12deg);
 }
 
 footer {
